@@ -18,10 +18,12 @@
 
 #### mac OS
 python3 -m venv venv
+
 . venv/bin/activate
 
 #### windows OS
 py -m venv venv
+
 venv\Scripts\activate
 
 ### Then pip install all depencies in requirements.txt 
