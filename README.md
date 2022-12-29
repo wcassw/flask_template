@@ -3,16 +3,16 @@
 
 ## How to run this project
 ### macOS
-python3 --version
-python3 -m pip  — version OR python3 -m pip -V
-python3 -m pip install --upgrade pip
-pip3 install virtualenv
+- python3 --version
+- python3 -m pip  — version OR python3 -m pip -V
+- python3 -m pip install --upgrade pip
+- pip3 install virtualenv
 
 ### windows OS
-python -V
-py -m pip -version OR py -m pip -V
-py -m pip install --upgrade pip
-py install virtual
+- python -V
+- py -m pip -version OR py -m pip -V
+- py -m pip install --upgrade pip
+- py install virtual
 
 ### Create virtualenv with folder name venv
 
