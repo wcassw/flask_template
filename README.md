@@ -27,7 +27,8 @@ py -m venv venv
 venv\Scripts\activate
 
 ### Pull and pip install all depencies from requirements.txt 
- - https://github.com/wcassw/flask_template.git
+ - git clone https://github.com/wcassw/flask_template.git 
+ -   OR  git clone git@github.com:wcassw/flask_template.git
  - pip install -r requirements.txt
  
 ### run code 
@@ -43,3 +44,22 @@ venv\Scripts\activate
 
 ## Change the config 
  see file config.py 
+
+## Resources
+https://github.com/freeCodeCamp
+https://realpython.com/python-sqlite-sqlalchemy/
+https://www.youtube.com/playlist?list=PLLjmbh6XPGK4ISY747FUHXEl9lBxre4mM
+
+    https://www.w3schools.com/colors/colors_picker.asp
+    https://www.w3schools.com/css/default.asp
+    https://www.w3schools.com/html/default.asp
+    https://www.w3schools.com/js/default.asp
+    https://www.w3schools.com/python/default.asp
+
+
+    https://coolors.co
+    https://icons8.com
+    https://www.colorbook.io
+    https://fonts.google.com
+    https://unsplash.com
+    https://dribbble.com/shots/popular/web-design
