@@ -26,9 +26,10 @@ py -m venv venv
 
 venv\Scripts\activate
 
-### Then pip install all depencies in requirements.txt 
+### Pull and pip install all depencies from requirements.txt 
+ - https://github.com/wcassw/flask_template.git
  - pip install -r requirements.txt
- - 
+ 
 ### run code 
  - python run.py
  
