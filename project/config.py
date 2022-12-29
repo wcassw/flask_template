@@ -15,20 +15,20 @@ class BaseConfig(object):
 
 class DevelopmentConfig(BaseConfig):
     # DB
-    # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:{CREDS}@localhost:3306/{DBNAME}'.format(quote('s@m@dfans'), DBNAME)
+    # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:{CREDS}@localhost:3306/{DBNAME}'.format(quote('s!ldfans'), DBNAME)
     SQLALCHEMY_DATABASE_URI = 'sqlite:///{DBNAME}'.format(DBNAME)
     DEBUG = True
 
 
 class TestingConfig(BaseConfig):
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:%s@localhost:3306/flask_new_testing' % quote('s@m@dfans')
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:%s@localhost:3306/flask_new_testing' % quote('s!ldfans')
     TESTING = True
     WTF_CSRF_ENABLED = False
     PRESERVE_CONTEXT_ON_EXCEPTION = False
 
 
 class ProductionConfig(BaseConfig):
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:%s@localhost:3306/flask_new' % quote('s@m@dfans')
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:%s@localhost:3306/flask_new' % quote('s!ldfans')
     DEBUG = False
 
 
